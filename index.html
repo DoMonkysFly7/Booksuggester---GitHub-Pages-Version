@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Booksuggester </title>
+        <!-- React,ReactDOM,Babel -->
+        <script src="https://unpkg.com/react@18.2.0/umd/react.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+        <!-- React.js / JavaScript -->
+        <script type="text/babel" defer src="App.js"></script>
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Icon -->
+        <link rel="icon" type="image/x-icon" href="open-book.png">
+    </head>
+    <header> If page is refreshed the book-choosing process will restart. </header>
+    <body>
+        <div id="logo_container">
+            <img id="logo" width="500" height="500" alt="Website Logo" src="default.png"></img>
+             <div id="auth_comments"></div>
+        </div>
+        
+        <div id="app"></div>
+    
+        <div id="quotes_container"></div>
+    </body>
+    <footer>  <a id="copyright">&copy;</a> Booksuggester's Author </footer>
+</html>
