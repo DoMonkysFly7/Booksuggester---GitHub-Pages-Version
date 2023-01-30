@@ -10,7 +10,7 @@ repositories achieve the same outcome. Still, feel free to check both of them ou
 Purpose:
 This website is meant to suggest one or multiple books to read for the person who has used it. It is not meant to spend
 a lot of time on it, but simply: enter, answer the questions, get curious about a new book(s) you may wanna try out that
-the website has deemed suitable to you, end of story. 
+the website has deemed suitable for you, end of story. 
 I created this website because I believed the idea may be interesting, as I have not seen many websites like this before,
 if any, and also because sometime I myself struggle to pick a new book to read. 
 
