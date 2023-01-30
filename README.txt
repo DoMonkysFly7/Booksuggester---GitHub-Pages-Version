@@ -38,7 +38,7 @@ of making the right API calls by subject or specific work (see openlibrary.org A
 of the security features, the edge cases and mcuh more, all is handled here.
 
 styles.css - Converted from SASS, so it may look a bit weird, here is well all the animations and stylization, as the name
-suggests, happens.
+suggests, happens. I used a great deal of FLEXBOX and a bit of GRID.
 
 index.html - The only HTML file of the project, as this is a One Page application, none more were required. All dependencies
 are shown there (React, REACT DOM, Babel...). Obviously, here is also the layout of the page.
