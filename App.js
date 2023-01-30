@@ -64,7 +64,7 @@ class Quotes extends React.Component {
                     "“So please, oh please, we beg, we pray, go throw your TV set away, and in its place you can install a lovely bookshelf on the wall.” -Roald Dahl",
                     "“The more that you read, the more things you will know. The more that you learn, the more places you’ll go.” - Dr.Seuss",
                     "“I kept always two books in my pocket, one to read, one to write in.” - Robert Louis Stevenson",
-                    "“We are of opinion that instead of letting books grow moldy behind an iron grating, far from the vulgar gaze, it is better to let them wear out by being read.” - Juls Verne",
+                    "“We are of opinion that instead of letting books grow moldy behind an iron grating, far from the vulgar gaze, it is better to let them wear out by being read.” - Jules Verne",
                     "“My alma mater was books, a good library...I could spend the rest of my life reading, just satisfying my curiosity.” - Malcom X",
                     "“Books serve to show a man that those original thoughts of his aren’t very new after all.” - Abraham Lincoln",
                     
@@ -277,6 +277,10 @@ class App extends React.Component {
 
         if(rand_final_choice['description']['value']){
             rand_final_choice['description'] = rand_final_choice['description']['value'];
+
+            if(rand_final_choice['title'] === 'Petersburg tales') {
+                    rand_final_choice['title'] = 'Petersburg tales';
+                };
         };
 
         if(this.state.suggestions[0] !== undefined){
@@ -290,6 +294,10 @@ class App extends React.Component {
             }
             if(rand_auth_choice['title'] === 'Petersburg tales' || rand_auth_choice['title'] === 'The Book Thief' || rand_auth_choice['title'] === 'Fahrenheit 451'){
                 rand_auth_choice['description'] = rand_auth_choice['description']['value'];
+
+                if(rand_auth_choice['title'] === 'Petersburg tales') {
+                    rand_auth_choice['title'] = 'Petersburg tales';
+                };
             } 
             wait(2000).then(() => {
                 document.querySelector('#app').style.display = 'block';
