@@ -27,7 +27,7 @@ really.
 
 How is built:
 This website is static, it therefore uses: HTML, SASS converted to CSS, JavaScript and React.js. It also uses APIs from
-www.openlibrary.org and covers.openlbirary.org for the information regarding the books. These aforementioned websites, all
+https://openlibrary.org and https://covers.openlibrary.org/ for the information regarding the books. These aforementioned websites, all
 their pages, are 'APIs' themselves, meaning they can be requested by anyone in JSON or any other format, no key is required.
 
 As you may have noticed, this website has no user input and no database, as these are not necessary.
@@ -46,4 +46,12 @@ are shown there (React, REACT DOM, Babel...). Obviously, here is also the layout
 open-book.png - Icon of the website, found online, no copyright for personal use.
 
 default.png - Logo, created only with random website for such aims. 
+
+Security:
+As this project will only be visible on GitHub pages, ever, GitHub has provided most of security features, such as: CSP, SRI, HSTS, X-Frame-Options and forced HTTPS.
+However, I took the libery on modifying CORS settings and adding Framebusting logic as well.
+
+Performance:
+I used Page Speed Insights (https://pagespeed.web.dev/) from Google in order to check the performance on both Desktop and Mobile. While on Desktop works much better,
+I heard the feedback from various people I had try the website out that it works fine on mobiles as well.
 
