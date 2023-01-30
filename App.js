@@ -277,10 +277,6 @@ class App extends React.Component {
 
         if(rand_final_choice['description']['value']){
             rand_final_choice['description'] = rand_final_choice['description']['value'];
-
-            if(rand_final_choice['title'] === 'Преступление и наказание') {
-                rand_final_choice['title'] = 'Crime and Punishment';
-            };
         };
 
         if(this.state.suggestions[0] !== undefined){
@@ -294,10 +290,6 @@ class App extends React.Component {
             }
             if(rand_auth_choice['title'] === 'Petersburg tales' || rand_auth_choice['title'] === 'The Book Thief' || rand_auth_choice['title'] === 'Fahrenheit 451'){
                 rand_auth_choice['description'] = rand_auth_choice['description']['value'];
-
-                if(rand_auth_choice['title'] === 'Преступление и наказание') {
-                    rand_auth_choice['title'] = 'Crime and Punishment';
-                };
             } 
             wait(2000).then(() => {
                 document.querySelector('#app').style.display = 'block';
@@ -349,11 +341,6 @@ class App extends React.Component {
             if(rand_final_choice['description']['value']){
                 rand_final_choice['description'] = rand_final_choice['description']['value'];
             } 
-
-            if(rand_final_choice['title'] === 'Преступление и наказание') {
-                rand_final_choice['title'] = 'Crime and Punishment';
-            };
-
             //final stylization
             document.querySelector('#logo_container').style.animation = 'LogoContainer_final 0.8s forwards';
             document.querySelector('#quotes_container').style.position = 'fixed';
@@ -375,9 +362,6 @@ class App extends React.Component {
                     rand_auth_choice['description'] = rand_auth_choice['description']['value'];
 
                 } 
-                if(rand_auth_choice['title'] === 'Преступление и наказание') {
-                    rand_auth_choice['title'] = 'Crime and Punishment';
-                };
                 return(
                     <div style={{animation: "transitionIn 2.5s ease-in-out"}}>
                         <div id="final_render_2" style={{animation: "none"}}>
