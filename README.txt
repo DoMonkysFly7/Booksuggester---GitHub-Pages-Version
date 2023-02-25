@@ -1,6 +1,6 @@
 Created by DoMonkysFly7 - Oprea Stefan-A.
 
-Check it out on: https://github.com/DoMonkysFly7/Booksuggester---GitHub-Pages-Version
+Website not on Github Pages anymore for the time being!
 
 Description:
 This Project was initially created to be submited as part of 'CS50's Web Development with Python and JavaScript' course
